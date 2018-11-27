@@ -11,11 +11,11 @@ public class WordCountReducer extends Reducer<Text, IntWritable, Text, IntWritab
     @Override
     protected void reduce(Text key, Iterable<IntWritable> values, Context context) throws IOException, InterruptedException {
         Iterator<IntWritable> it = values.iterator();
-        int intCount = 0;
+        int count = 0;
         while (it.hasNext()) {
             IntWritable iw = it.next();
-            intCount += iw.get();
+            count += iw.get();
         }
-        context.write(key, new IntWritable(intCount));
+        context.write(key, new IntWritable(count));
     }
 }

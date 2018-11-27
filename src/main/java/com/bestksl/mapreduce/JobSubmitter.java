@@ -16,7 +16,7 @@ public class JobSubmitter {
         Configuration conf = new Configuration();
 
         // jvm参数 user=root
-        System.setProperty("HADOOP_USER_NAME","root");
+        System.setProperty("HADOOP_USER_NAME", "root");
 
         // 找到 hdfs MASTER
         conf.set("fs.defaultFS", "hdfs://HDP-01:9000");
@@ -25,10 +25,15 @@ public class JobSubmitter {
         // 找到yarn Resource manager 主机
         conf.set("yarn.resourcemanager.hostname", "HDP-01");
 
+        // 如果是windows bash  会出现拼接问题
+        conf.set("mapreduce.app-submission.cross-platform", "true");
+
         // 获得 yarn 客户端对象
         Job job = Job.getInstance(conf);
-        //让 yarn 找到 mapper,reducer, 所在的jar
-        job.setJarByClass(JobSubmitter.class);
+
+        // 让 yarn 找到 mapper,reducer, 所在的jar
+        //job.setJarByClass(JobSubmitter.class); //失败
+        job.setJar("d:/a.jar");
 
         // 封装所需参数: mapper,reducer, output key type, output value type
         job.setMapperClass(WordCountMapper.class);
@@ -41,7 +46,7 @@ public class JobSubmitter {
         FileOutputFormat.setOutputPath(job, new Path("/wordcount/output"));
 
         // 设置 reducer 数量
-        job.setNumReduceTasks(4);
+        job.setNumReduceTasks(2);
 
         // 提交yarn
         Boolean res = job.waitForCompletion(true);
