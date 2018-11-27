@@ -1,4 +1,4 @@
-package com.bestksl.mapreduce.wc;
+package com.bestksl.mapreduce;
 
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;
