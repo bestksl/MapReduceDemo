@@ -1,7 +1,6 @@
 package com.bestksl.mapreduce;
 
 import org.apache.hadoop.conf.Configuration;
-import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
@@ -28,6 +27,10 @@ public class JobSubmitter {
         // 如果是windows bash  会出现拼接问题
         conf.set("mapreduce.app-submission.cross-platform", "true");
 
+        // 分配内存
+        conf.set("mapreduce.map.memory.mb", "1024");
+        conf.set("mapreduce.reduce.memory.mb", "1024");
+
         // 获得 yarn 客户端对象
         Job job = Job.getInstance(conf);
 
@@ -47,6 +50,7 @@ public class JobSubmitter {
 
         // 设置 reducer 数量
         job.setNumReduceTasks(2);
+
 
         // 提交yarn
         Boolean res = job.waitForCompletion(true);
