@@ -10,7 +10,7 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 import java.io.IOException;
 
-public class JobSubmitter {
+public class JobSubmitterWindowsToYarn {
     public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException {
         Configuration conf = new Configuration();
 
@@ -35,7 +35,7 @@ public class JobSubmitter {
         Job job = Job.getInstance(conf);
 
         // 让 yarn 找到 mapper,reducer, 所在的jar
-        //job.setJarByClass(JobSubmitter.class); //失败
+        //job.setJarByClass(JobSubmitterWindowsToYarn.class); //失败
         job.setJar("d:/a.jar");
 
         // 封装所需参数: mapper,reducer, output key type, output value type

@@ -3,6 +3,7 @@
     <words>
       <w>hdfs</w>
       <w>mapreduce</w>
+      <w>mrdata</w>
       <w>resourcemanager</w>
       <w>wordcount</w>
     </words>
