@@ -12,6 +12,9 @@ public class FlowBean implements Writable {
     private int downFlow;
     private int amountFlow;
 
+    public FlowBean() {
+    }
+
     public FlowBean(String phone, int upFlow, int downFlow) {
         this.phone = phone;
         this.upFlow = upFlow;
@@ -58,23 +61,22 @@ public class FlowBean implements Writable {
 
     @Override
     public void write(DataOutput dataOutput) throws IOException {
-        dataOutput.write(upFlow);
-        dataOutput.write(downFlow);
-        dataOutput.write(amountFlow);
+        dataOutput.writeInt(upFlow);
+        dataOutput.writeInt(downFlow);
+        dataOutput.writeInt(amountFlow);
         dataOutput.writeUTF(phone);
-
     }
 
     @Override
     public String toString() {
-        return this.phone + " " + this.upFlow + " " + this.downFlow + " " + this.amountFlow;
+        return this.upFlow + " " + this.downFlow + " " + this.amountFlow;
     }
 
     @Override
     public void readFields(DataInput dataInput) throws IOException {
-        this.phone = dataInput.readUTF();
         this.upFlow = dataInput.readInt();
         this.downFlow = dataInput.readInt();
         this.amountFlow = dataInput.readInt();
+        this.phone = dataInput.readUTF();
     }
 }
