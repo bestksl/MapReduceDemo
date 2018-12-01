@@ -1,5 +1,6 @@
 package com.bestksl.page.topn;
 
+import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
@@ -17,13 +18,12 @@ public class PageTopnReducer extends Reducer<Text, IntWritable, Text, IntWritabl
             if (p1.getCount() == p2.getCount()) {
                 return p1.getPage().compareTo(p2.getPage());
             }
-            return p1.getCount() - p2.getCount();
+            return p2.getCount() - p1.getCount();
         }
     });
 
     @Override
     protected void reduce(Text key, Iterable<IntWritable> values, Context context) throws IOException, InterruptedException {
-
 
         int count = 0;
         for (IntWritable value :
@@ -38,15 +38,17 @@ public class PageTopnReducer extends Reducer<Text, IntWritable, Text, IntWritabl
 
     @Override
     protected void cleanup(Context context) throws IOException, InterruptedException {
+        Configuration conf = context.getConfiguration();
         Set<Map.Entry<PageCount, Object>> entries = tm.entrySet();
-        int flag = 0;
+        int flag = Integer.parseInt(conf.get("num", "5"));
+        int i = 0;
         for (Map.Entry<PageCount, Object> e :
                 entries) {
-            if (flag >= 5) {
+            if (i >= flag) {
                 break;
             }
             context.write(new Text(e.getKey().getPage()), new IntWritable(e.getKey().getCount()));
-            flag++;
+            i++;
         }
 
     }

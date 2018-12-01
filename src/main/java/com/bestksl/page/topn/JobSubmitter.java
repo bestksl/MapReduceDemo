@@ -16,6 +16,7 @@ import java.io.IOException;
 public class JobSubmitter {
     public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException {
         Configuration conf = new Configuration();
+        conf.set("num", "5");
         Job job = Job.getInstance(conf);
 
         //各种设置
@@ -32,6 +33,6 @@ public class JobSubmitter {
         FileInputFormat.setInputPaths(job, new Path("E:\\mrdata\\topn\\input"));
         FileOutputFormat.setOutputPath(job, new Path("E:\\mrdata\\topn\\output"));
 
-        job.waitForCompletion(true);
+        job.waitForCompletion(  true);
     }
 }
