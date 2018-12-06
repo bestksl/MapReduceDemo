@@ -16,17 +16,17 @@ public class JobSubmitter {
 
         //各种设置
         job.setJarByClass(JobSubmitter.class);
-
+        job.setPartitionerClass(ProvincePartitioner.class);
         job.setMapOutputKeyClass(Text.class);
         job.setMapOutputValueClass(FlowBean.class);
         job.setMapperClass(FlowMapper.class);
         job.setReducerClass(FlowReducer.class);
-
+        job.setNumReduceTasks(7);
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(FlowBean.class);
 
         FileInputFormat.setInputPaths(job, new Path("E:\\mrdata\\flow\\input"));
-        FileOutputFormat.setOutputPath(job, new Path("E:\\mrdata\\flow\\output"));
+        FileOutputFormat.setOutputPath(job, new Path("E:\\mrdata\\flow\\output3"));
 
         job.waitForCompletion(true);
     }

@@ -36,7 +36,7 @@ public class JobSubmitterWindowsToYarn {
 
         // 让 yarn 找到 mapper,reducer, 所在的jar
         //job.setJarByClass(JobSubmitterWindowsToYarn.class); //失败
-        job.setJar("d:/a.jar");
+        job.setJar("d:/aaa.jar");
 
         // 封装所需参数: mapper,reducer, output key type, output value type
         job.setMapperClass(WordCountMapper.class);
