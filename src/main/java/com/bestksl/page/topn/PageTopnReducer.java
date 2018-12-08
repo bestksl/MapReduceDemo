@@ -50,6 +50,5 @@ public class PageTopnReducer extends Reducer<Text, IntWritable, Text, IntWritabl
             context.write(new Text(e.getKey().getPage()), new IntWritable(e.getKey().getCount()));
             i++;
         }
-
     }
 }
