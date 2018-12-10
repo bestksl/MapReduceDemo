@@ -1,12 +1,13 @@
 package com.bestksl.page.topn.group;
 
 import org.apache.hadoop.io.Writable;
+import org.apache.hadoop.io.WritableComparable;
 
 import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
 
-public class OrderBean implements Writable, Comparable {
+public class OrderBean implements Writable, WritableComparable<OrderBean> {
 
     private String orderId;
     private String userId;
@@ -85,6 +86,14 @@ public class OrderBean implements Writable, Comparable {
         this.amountFee = amountFee;
     }
 
+    public void set(String orderId, String userId, String pdtName, float price, int number) {
+        this.orderId = orderId;
+        this.userId = userId;
+        this.pdtName = pdtName;
+        this.price = price;
+        this.number = number;
+    }
+
     @Override
     public void readFields(DataInput dataInput) throws IOException {
         this.orderId = dataInput.readUTF();
@@ -97,9 +106,13 @@ public class OrderBean implements Writable, Comparable {
 
 
     @Override
-    public int compareTo(Object o) {
+    public int compareTo(OrderBean o) {
 
-        return this.orderId.compareTo(((OrderBean) o).getOrderId()) == 0 ? Float.compare(((OrderBean) o).getAmountFee(), this.getAmountFee()) : this.orderId.compareTo(((OrderBean) o).getOrderId());
+        return this.orderId.compareTo(o.getOrderId()) == 0 ? Float.compare(o.getAmountFee(), this.getAmountFee()) : this.orderId.compareTo(o.getOrderId());
     }
 
+    @Override
+    public String toString() {
+        return this.orderId + " " + this.getNumber() + " " + this.pdtName + " ";
+    }
 }
