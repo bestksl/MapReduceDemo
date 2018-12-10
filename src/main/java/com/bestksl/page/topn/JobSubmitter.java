@@ -1,8 +1,5 @@
 package com.bestksl.page.topn;
 
-import com.bestksl.flow.FlowBean;
-import com.bestksl.flow.FlowMapper;
-import com.bestksl.flow.FlowReducer;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
