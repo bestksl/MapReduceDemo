@@ -1,13 +1,8 @@
 package com.bestksl.page.topn.group;
 
-import com.bestksl.flow.FlowBean;
-import com.bestksl.flow.FlowMapper;
-import com.bestksl.flow.FlowReducer;
-import com.bestksl.flow.ProvincePartitioner;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.NullWritable;
-import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
@@ -26,7 +21,7 @@ public class JobSubmitter {
         job.setMapOutputValueClass(NullWritable.class);
         job.setMapperClass(Topn.OrderTopNmapper.class);
         job.setReducerClass(Topn.OrderTopNReducer.class);
-        job.setNumReduceTasks(4);
+        job.setNumReduceTasks(2);
         job.setOutputKeyClass(OrderBean.class);
         job.setOutputValueClass(NullWritable.class);
         job.setGroupingComparatorClass(OrderTopNGroupcomparator.class);
@@ -35,5 +30,6 @@ public class JobSubmitter {
         FileOutputFormat.setOutputPath(job, new Path("E:\\mrdata\\flow\\output100"));
 
         job.waitForCompletion(true);
+
     }
 }

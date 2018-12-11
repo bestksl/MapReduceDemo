@@ -8,7 +8,7 @@ import org.apache.hadoop.mapreduce.Reducer;
 
 import java.io.IOException;
 
-public class Topn {
+class Topn {
 
     public static class OrderTopNmapper extends Mapper<LongWritable, Text, OrderBean, NullWritable> {
         String[] attrs;
@@ -26,10 +26,11 @@ public class Topn {
         @Override
         protected void reduce(OrderBean key, Iterable<NullWritable> values, Context context) throws IOException, InterruptedException {
             int i = 0;
-            for (NullWritable nw :
-                    values) {
-                if (++i == 3) return;
+            for (NullWritable nw : values) {
                 context.write(key, NullWritable.get());
+                if (++i == 3) {
+                    break;
+                }
             }
         }
     }

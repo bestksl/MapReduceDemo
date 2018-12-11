@@ -13,8 +13,8 @@ public class OrderTopNGroupcomparator extends WritableComparator {
     @Override
     public int compare(WritableComparable a, WritableComparable b) {
         OrderBean o1 = (OrderBean) a;
-        OrderBean o2 = (OrderBean) a;
-        return o1.compareTo(o2);
+        OrderBean o2 = (OrderBean) b;
+        return o1.getOrderId().compareTo(o2.getOrderId());
 
     }
 }

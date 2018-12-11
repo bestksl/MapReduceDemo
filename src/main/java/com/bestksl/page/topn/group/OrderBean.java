@@ -17,7 +17,7 @@ public class OrderBean implements Writable, WritableComparable<OrderBean> {
     private float amountFee;
 
 
-    public OrderBean() {
+    OrderBean() {
     }
 
     public OrderBean(String orderId, String userId, String pdtName, float price, int number) {
@@ -72,7 +72,7 @@ public class OrderBean implements Writable, WritableComparable<OrderBean> {
     public void write(DataOutput dataOutput) throws IOException {
 
         dataOutput.writeUTF(this.orderId);
-        dataOutput.writeUTF(this.orderId);
+        dataOutput.writeUTF(this.userId);
         dataOutput.writeUTF(this.pdtName);
         dataOutput.writeFloat(this.price);
         dataOutput.writeInt(this.number);
@@ -113,6 +113,6 @@ public class OrderBean implements Writable, WritableComparable<OrderBean> {
 
     @Override
     public String toString() {
-        return this.orderId + " " + this.getNumber() + " " + this.pdtName + " ";
+        return this.orderId + " " + this.getNumber() + " " + this.pdtName + " " + this.getAmountFee() + " " + this.getPrice();
     }
 }
