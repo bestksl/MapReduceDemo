@@ -26,8 +26,10 @@ public class commonFriends {
                 k.set(friend);
                 context.write(k, v);
             }
+
         }
     }
+
 
     static class CommonFriendsReducer extends Reducer<Text, Text, Text, Text> {
         @Override
