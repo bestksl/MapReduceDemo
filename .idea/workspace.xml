@@ -5,6 +5,13 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/com/mapreduceremind/commonFriends/CommenFriends.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/mapreduceremind/commonFriends/JobSubmitterLocal.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/mapreduceremind/commonFriends/JobSubmitterLocal2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mapreduceremind/commonFriends/CommenFriends$CfMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mapreduceremind/commonFriends/CommenFriends$CfMapper2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mapreduceremind/commonFriends/CommenFriends$CfReducer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mapreduceremind/commonFriends/CommenFriends$CfReducer2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mapreduceremind/commonFriends/CommenFriends.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mapreduceremind/commonFriends/JobSubmitterLocal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mapreduceremind/commonFriends/JobSubmitterLocal2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -35,34 +42,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduceremind/commonFriends/CommenFriends.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bestksl/page/topn/group/OrderTopNGroupcomparator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="39" column="83" selection-start-line="39" selection-start-column="83" selection-end-line="39" selection-end-column="83" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="192">
+              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduceremind/commonFriends/JobSubmitterLocal2.java">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="34" column="60" lean-forward="true" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduceremind/commonFriends/JobSubmitterLocal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="293">
+              <caret line="798" column="20" selection-start-line="798" selection-start-column="20" selection-end-line="798" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -73,12 +65,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Singleton" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -114,9 +111,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mapreduceremind/threeSmallFiles/TopNReducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mapreduceremind/threeSmallFiles2/JobSubmitterLocal.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mapreduceremind/threeSmallFiles2/TopNReducer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mapreduceremind/commonFriends/JobSubmitterLocal.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mapreduceremind/commonFriends/JobSubmitterLocal2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mapreduceremind/commonFriends/CommenFriends.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
       </list>
     </option>
   </component>
@@ -134,22 +129,6 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="MapReduceDemo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="MapReduceDemo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="MapReduceDemo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="MapReduceDemo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.apache.hadoop:hadoop-client:2.8.1" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
       </expand>
       <select />
     </treeState>
@@ -166,6 +145,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -177,6 +157,11 @@
             <path>
               <item name="MapReduceDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="MapReduceDemo" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MapReduceDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MapReduceDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -216,62 +201,12 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="bestksl" type="462c0819:PsiDirectoryNode" />
-              <item name="commonFriends" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MapReduceDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MapReduceDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="mapreduceremind" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MapReduceDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MapReduceDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mapreduceremind" type="462c0819:PsiDirectoryNode" />
-              <item name="commonFriends" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MapReduceDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MapReduceDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mapreduceremind" type="462c0819:PsiDirectoryNode" />
-              <item name="threeSmallFiles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MapReduceDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MapReduceDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mapreduceremind" type="462c0819:PsiDirectoryNode" />
-              <item name="threeSmallFiles2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MapReduceDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MapReduceDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MapReduceDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -286,7 +221,6 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.mapreduceremind.commonFriends" />
       <recent name="com.mapreduceremind.threeSmallFiles.threeSmallFiles2" />
       <recent name="com.mapreduceremind.threeSmallFiles" />
       <recent name="com.mapreduceremind.topN.task2" />
@@ -311,19 +245,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.JobSubmitterLocal2">
-    <configuration name="JobSubmitter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bestksl.commonFriends.JobSubmitter" />
-      <module name="MapReduceDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bestksl.commonFriends.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="JobSubmitterLocal (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mapreduceremind.threeSmallFiles.JobSubmitterLocal" />
       <module name="MapReduceDemo" />
@@ -363,6 +284,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JobSubmitterLocal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mapreduceremind.topN.task1.JobSubmitterLocal" />
+      <module name="MapReduceDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mapreduceremind.topN.task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JobSubmitterLocal2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mapreduceremind.commonFriends.JobSubmitterLocal2" />
       <module name="MapReduceDemo" />
@@ -393,9 +327,9 @@
       <list>
         <item itemvalue="Application.JobSubmitterLocal2" />
         <item itemvalue="Application.JobSubmitterLocal (4)" />
-        <item itemvalue="Application.JobSubmitter" />
         <item itemvalue="Application.JobSubmitterLocal (3)" />
         <item itemvalue="Application.JobSubmitterLocal (2)" />
+        <item itemvalue="Application.JobSubmitterLocal" />
       </list>
     </recent_temporary>
   </component>
@@ -412,20 +346,26 @@
       <workItem from="1564465959619" duration="808000" />
       <workItem from="1566945499087" duration="6765000" />
       <workItem from="1567118295912" duration="29592000" />
-      <workItem from="1567799165864" duration="6634000" />
-      <workItem from="1568010009837" duration="23000" />
-      <workItem from="1568062378700" duration="6503000" />
+      <workItem from="1567799165864" duration="4904000" />
+      <workItem from="1568320096169" duration="1387000" />
     </task>
+    <task id="LOCAL-00001" summary="fa">
+      <created>1568349482628</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568349482629</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51044000" />
+    <option name="totallyTimeSpent" value="45678000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22344323" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22588523" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -434,13 +374,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993895" visible="true" weight="0.26020408" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993895" weight="0.26020408" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50061053" side_tool="true" weight="0.26020408" />
@@ -460,11 +400,64 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fa" />
+    <option name="LAST_COMMIT_MESSAGE" value="fa" />
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bestksl/commonFriends/JobSubmitter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bestksl/page/topn/group/JobSubmitter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bestksl/page/topn/group/OrderIdPartitioner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bestksl/mapreduce/WordCountReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bestksl/mapreduce/JobSubmitterLinuxToYarn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bestksl/mapreduce/JobSubmitterWindowsLocalToYarn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bestksl/mapreduce/JobSubmitterWindowsToYarn.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
@@ -493,6 +486,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.8.1/hadoop-mapreduce-client-core-2.8.1.jar!/org/apache/hadoop/mapreduce/Mapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -662,6 +662,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bestksl/page/topn/PageTopnReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="40" column="56" lean-forward="true" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/Desktop/intput/request.dat" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bestksl/flow/ProvincePartitioner.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -677,6 +684,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduceremind/threeSmallFiles/JobSubmitterLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="31" column="48" lean-forward="true" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -707,30 +724,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/output/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/output2/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduceremind/threeSmallFiles2/TopNReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduceremind/threeSmallFiles2/TopNMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -738,41 +731,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bestksl/page/topn/group/OrderBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="661">
-          <caret line="107" column="13" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bestksl/page/topn/group/OrderTopNGroupcomparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bestksl/page/topn/PageTopnReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bestksl/page/topn/group/Topn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bestksl/page/topn/group/OrderIdPartitioner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -786,74 +744,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduceremind/threeSmallFiles/JobSubmitterLocal.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduceremind/threeSmallFiles2/TopNReducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="31" column="48" lean-forward="true" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+        <state relative-caret-position="288">
+          <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bestksl/commonFriends/JobSubmitter.java">
+    <entry file="file://$USER_HOME$/Desktop/output2/part-r-00000">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        <state relative-caret-position="144">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.8.1/hadoop-mapreduce-client-core-2.8.1.jar!/org/apache/hadoop/mapreduce/Mapper.class">
+    <entry file="file://$USER_HOME$/Desktop/output/part-r-00000">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.8.1/hadoop-mapreduce-client-core-2.8.1.jar!/org/apache/hadoop/mapred/MapTask.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="145" selection-start-line="145" selection-end-line="145" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-12.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="1207" column="62" lean-forward="true" selection-start-line="1207" selection-start-column="62" selection-end-line="1207" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-common/2.8.1/hadoop-mapreduce-client-common-2.8.1.jar!/org/apache/hadoop/mapred/LocalJobRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="787" selection-start-line="787" selection-end-line="787" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduceremind/commonFriends/CommenFriends.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="39" column="83" selection-start-line="39" selection-start-column="83" selection-end-line="39" selection-end-column="83" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduceremind/commonFriends/JobSubmitterLocal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="224">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bestksl/commonFriends/commonFriends.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="288">
           <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -861,10 +778,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduceremind/commonFriends/JobSubmitterLocal2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bestksl/page/topn/group/OrderBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="34" column="60" lean-forward="true" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
+        <state relative-caret-position="400">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bestksl/page/topn/group/OrderTopNGroupcomparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="798" column="20" selection-start-line="798" selection-start-column="20" selection-end-line="798" selection-end-column="20" />
         </state>
       </provider>
     </entry>
