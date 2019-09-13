@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6913ca24-ec08-4e17-9ea9-35b288e62bb6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6913ca24-ec08-4e17-9ea9-35b288e62bb6" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bestksl/page/topn/group/OrderTopNGroupcomparator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="224">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -51,6 +49,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -166,11 +169,11 @@
             <path>
               <item name="MapReduceDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="MapReduceDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MapReduceDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mapreduceremind" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -213,33 +216,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JobSubmitterLocal (3)">
-    <configuration name="JobSubmitterLinuxToYarn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bestksl.mapreduce.JobSubmitterLinuxToYarn" />
-      <module name="MapReduceDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bestksl.mapreduce.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JobSubmitterLocal (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mapreduceremind.topN.task2.JobSubmitterLocal" />
-      <module name="MapReduceDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mapreduceremind.topN.task2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.JobSubmitterLocal2">
     <configuration name="JobSubmitterLocal (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mapreduceremind.threeSmallFiles.JobSubmitterLocal" />
       <module name="MapReduceDemo" />
@@ -266,12 +243,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JobSubmitterLocal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mapreduceremind.wordcount.JobSubmitterLocal" />
+    <configuration name="JobSubmitterLocal (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mapreduceremind.commonFriends.JobSubmitterLocal" />
       <module name="MapReduceDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mapreduceremind.wordcount.*" />
+          <option name="PATTERN" value="com.mapreduceremind.commonFriends.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JobSubmitterLocal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mapreduceremind.topN.task1.JobSubmitterLocal" />
+      <module name="MapReduceDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mapreduceremind.topN.task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JobSubmitterLocal2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mapreduceremind.commonFriends.JobSubmitterLocal2" />
+      <module name="MapReduceDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mapreduceremind.commonFriends.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -294,10 +297,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JobSubmitterLocal2" />
+        <item itemvalue="Application.JobSubmitterLocal (4)" />
         <item itemvalue="Application.JobSubmitterLocal (3)" />
         <item itemvalue="Application.JobSubmitterLocal (2)" />
-        <item itemvalue="Application.JobSubmitterLocal (1)" />
-        <item itemvalue="Application.JobSubmitterLocal (1)" />
         <item itemvalue="Application.JobSubmitterLocal" />
       </list>
     </recent_temporary>
@@ -321,10 +324,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45372000" />
+    <option name="totallyTimeSpent" value="45408000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22588523" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -744,8 +748,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bestksl/page/topn/group/OrderTopNGroupcomparator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="224">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
