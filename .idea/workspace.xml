@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6913ca24-ec08-4e17-9ea9-35b288e62bb6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapreduceremind/commonFriends/CommenFriends.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapreduceremind/commonFriends/JobSubmitterLocal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapreduceremind/commonFriends/JobSubmitterLocal2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mapreduceremind/commonFriends/CommenFriends$CfMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mapreduceremind/commonFriends/CommenFriends$CfMapper2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mapreduceremind/commonFriends/CommenFriends$CfReducer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mapreduceremind/commonFriends/CommenFriends$CfReducer2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mapreduceremind/commonFriends/CommenFriends.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mapreduceremind/commonFriends/JobSubmitterLocal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mapreduceremind/commonFriends/JobSubmitterLocal2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ServerAndClients/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ServerAndClients/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ZooKeeperClientDemo/ZooKeeperCommands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,26 +35,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bestksl/page/topn/group/OrderTopNGroupcomparator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="798" column="20" selection-start-line="798" selection-start-column="20" selection-end-line="798" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -86,7 +62,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mapreduceremind/WordCountReducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mapreduceremind/WordCountMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mapreduceremind/wordcount/WordCountReducer.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/mapreduceremind/wordcount/JobSubmitter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mapreduceremind/wordcount/WordCountMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bestksl/mapreduce/WordCountMapper.java" />
@@ -112,6 +87,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mapreduceremind/threeSmallFiles2/JobSubmitterLocal.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mapreduceremind/threeSmallFiles2/TopNReducer.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bestksl/page/topn/group/OrderTopNGroupcomparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ZooKeeperClientDemo/ZooKeeperCommands.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ServersAndClients.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ServerAndClients/Server.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ServerAndClients/Client.java" />
       </list>
     </option>
   </component>
@@ -157,11 +138,6 @@
             <path>
               <item name="MapReduceDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="MapReduceDemo" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MapReduceDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MapReduceDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -192,16 +168,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="bestksl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MapReduceDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MapReduceDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mapreduceremind" type="462c0819:PsiDirectoryNode" />
+              <item name="ZooKeeperClientDemo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -214,10 +181,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/mapreduceremind/threeSmallFiles/threeSmallFiles2" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.6229885" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -244,26 +211,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JobSubmitterLocal2">
-    <configuration name="JobSubmitterLocal (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mapreduceremind.threeSmallFiles.JobSubmitterLocal" />
+  <component name="RunManager" selected="Application.Server">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ServerAndClients.Client" />
       <module name="MapReduceDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mapreduceremind.threeSmallFiles.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JobSubmitterLocal (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mapreduceremind.threeSmallFiles2.JobSubmitterLocal" />
-      <module name="MapReduceDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mapreduceremind.threeSmallFiles2.*" />
+          <option name="PATTERN" value="com.ServerAndClients.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -277,19 +231,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.mapreduceremind.commonFriends.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JobSubmitterLocal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mapreduceremind.topN.task1.JobSubmitterLocal" />
-      <module name="MapReduceDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mapreduceremind.topN.task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -323,13 +264,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ServerAndClients.Server" />
+      <module name="MapReduceDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ServerAndClients.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZooKeeperCommands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ZooKeeperClientDemo.ZooKeeperCommands" />
+      <module name="MapReduceDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ZooKeeperClientDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.JobSubmitterLocal (4)" />
+      <item itemvalue="Application.JobSubmitterLocal2" />
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Application.ZooKeeperCommands" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.ZooKeeperCommands" />
         <item itemvalue="Application.JobSubmitterLocal2" />
         <item itemvalue="Application.JobSubmitterLocal (4)" />
-        <item itemvalue="Application.JobSubmitterLocal (3)" />
-        <item itemvalue="Application.JobSubmitterLocal (2)" />
-        <item itemvalue="Application.JobSubmitterLocal" />
       </list>
     </recent_temporary>
   </component>
@@ -360,7 +334,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45678000" />
+    <option name="totallyTimeSpent" value="62394000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -374,13 +348,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993895" weight="0.26020408" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4993895" visible="true" weight="0.26020408" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32959184" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50061053" side_tool="true" weight="0.26020408" />
@@ -409,27 +383,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bestksl/commonFriends/JobSubmitter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bestksl/page/topn/group/JobSubmitter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bestksl/page/topn/group/OrderIdPartitioner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -462,13 +415,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="37" column="58" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -785,17 +731,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bestksl/page/topn/group/OrderTopNGroupcomparator.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        <state relative-caret-position="440">
+          <caret line="33" column="42" lean-forward="true" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
-          <caret line="798" column="20" selection-start-line="798" selection-start-column="20" selection-end-line="798" selection-end-column="20" />
+          <caret line="814" column="20" selection-start-line="814" selection-start-column="20" selection-end-line="814" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ServersAndClients.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bestksl/page/topn/group/OrderTopNGroupcomparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ServerAndClients/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getData#0;class#Client#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ServerAndClients/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ZooKeeperClientDemo/ZooKeeperCommands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="36" column="39" lean-forward="true" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
